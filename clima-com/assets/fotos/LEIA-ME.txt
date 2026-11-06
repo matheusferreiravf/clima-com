@@ -1,0 +1,27 @@
+FOTOS DO SITE — Clima Com
+=========================
+
+Fotos em uso e onde aparecem:
+
+  instalacao-telhado.webp   Topo do site (hero) + vitrine
+  split-parede.jpg          Serviço "Instalação" + vitrine
+  manutencao-pressao.webp   Serviço "Manutenção" + vitrine
+  higienizacao.jpg          Serviço "Higienização" + vitrine (cortada para tirar o texto do story)
+  higienizacao-cliente.webp Seção "Quem somos" + vitrine (foto em destaque)
+  servico-altura.jpg        Vitrine
+  condensadora-casa.jpg     Vitrine
+  split-quarto.jpg          Vitrine
+  split-sala.jpg            Vitrine
+
+IMPORTANTE: as fotos atuais vieram de capturas de tela (330 a 550 px de largura),
+então ficam um pouco suaves em telas grandes. Para trocar por versões melhores,
+salve o ARQUIVO ORIGINAL do celular com o MESMO NOME por cima deste.
+Ideal: 1200 a 1600 px no lado maior, até ~300 KB.
+
+Para colocar MAIS fotos na vitrine: no index.html, dentro de <ul class="showcase">,
+copie um bloco <li class="shot" ...> e troque:
+  - src e alt da imagem
+  - data-cat: instalacao | manutencao | higienizacao
+  - a legenda dentro de <span class="shot__cap">
+
+O serviço 04 (elétrica) usa um painel com ícone no lugar de foto.
